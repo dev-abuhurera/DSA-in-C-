@@ -157,14 +157,12 @@ Node* nodeCreation(int data, Node* next){
 }
 
 int linkedListCreation(){
-
     first -> next = second;
     second -> next = third;
     third -> next = forth;
     forth -> next = fifth;
     fifth -> next = six;
     six -> next = nullptr;
-
     return 0;
 }
 
@@ -258,10 +256,7 @@ int main(){
     sortedList(previous);
     displayLinkedList(first);
     displayLinkedList(previous);
-
-
-
-   return 0;
+    return 0;
 }
     
 //-------------------------------------------------------------------------------------------------------------------------
