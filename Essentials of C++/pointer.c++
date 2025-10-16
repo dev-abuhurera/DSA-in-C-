@@ -70,6 +70,10 @@ int main(){
     cout<<sizeof(p5)<<endl;
     cout<<sizeof(p6)<<endl;
 
+    cout<< p5 <<endl;
+    cout<< *p5 <<endl;
+    
+
     return 0;
 }
 
